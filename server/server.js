@@ -8,6 +8,11 @@ app.use(bodyParser.json());
 
 app.start = function() {
   // start the web server
+
+  var port = process.env.PORT || 3000;
+
+  app.set('port', port);
+
   return app.listen(function() {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
