@@ -1,3 +1,5 @@
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # node_odata_server_example
 #The node OData server for the loopback framework example project
 
